@@ -5,6 +5,11 @@ export default function Home() {
       <video
         controls
         autoPlay
+        preload="lazy"
+        loop
+        playsInline
+        x5-playsinline
+        webkit-playsinline
         src="https://s3-sa-east-1.amazonaws.com/imagenes-loiuruguay/_videos/18762630-sd_426_240_30fps.mp4"
         className="flex-1 object-cover"
       />
